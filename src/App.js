@@ -1,7 +1,9 @@
+import { RpSdk } from '@idport/oidc-rp-sdk';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  console.log(RpSdk)
   return (
     <div className="App">
       <header className="App-header">
